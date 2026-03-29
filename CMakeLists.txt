@@ -8,4 +8,6 @@ add_executable(cosmos
         src/Rocket.hpp
         src/Rocket.cpp
         src/Star.cpp
-        src/Star.hpp)
+        src/Star.hpp
+        src/ParticleSystem.cpp
+        src/ParticleSystem.hpp)
