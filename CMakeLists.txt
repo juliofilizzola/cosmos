@@ -4,4 +4,5 @@ project(cosmos)
 set(CMAKE_CXX_STANDARD 26)
 
 add_executable(cosmos
-        src/main.cpp)
+        src/main.cpp
+        src/Rocket.hpp)
