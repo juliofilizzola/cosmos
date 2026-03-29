@@ -11,6 +11,7 @@ class Rocket {
     void render(sf::RenderWindow &window);
 
     private:
+    sf::ConvexShape myShape;
     sf::Vector2f myPosition;
     sf::Vector2f myVelocity{0.f, 0.f};
     sf::Vector2f myAcceleration{0.f, 0.f};
