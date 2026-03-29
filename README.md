@@ -4,7 +4,7 @@
 https://github.com/user-attachments/assets/9c42903f-628e-44a3-8225-89e6bdfd2fd9
 
 
-Cosmos é um projeto C++ que simula um sistema de partículas, foguetes e estrelas, provavelmente com fins educacionais ou de demonstração gráfica.
+Cosmos é um projeto C++ que simula um sistema de partículas, foguetes e estrelas.
 
 ## Estrutura do Projeto
 
