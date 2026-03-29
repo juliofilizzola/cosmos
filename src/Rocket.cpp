@@ -49,3 +49,7 @@ void Rocket::render(sf::RenderWindow &window) {
     window.draw(myShape);
 }
 
+sf::Vector2f Rocket::getPosition() const {
+    return myPosition;
+}
+

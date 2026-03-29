@@ -19,7 +19,7 @@ void ParticleSystem::update(sf::Time deltaTime) {
         } else {
             float alpha = 1.f - (it->lifetime / it->maxLifetime);
             sf::Color color = it->shape.getFillColor();
-            color.a = static_cast(255 * alpha);
+            color.a = static_cast<std::uint8_t>(255 * alpha);
             it->shape.move(it->velocity * delta);
             ++it;
         }
