@@ -3,5 +3,5 @@ project(cosmos)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(cosmos main.cpp
+add_executable(cosmos
         src/main.cpp)
